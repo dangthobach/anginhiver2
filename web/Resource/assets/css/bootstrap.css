@@ -5784,4 +5784,10 @@ button.close {
     display: none !important;
   }
 }
+.foodinput{
+    width: 40%;
+    margin: 3px 7px;
+    padding: 3px 4px;
+    float:left;
+}
 /*# sourceMappingURL=bootstrap.css.map */
