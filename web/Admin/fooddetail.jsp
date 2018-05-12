@@ -169,222 +169,297 @@
                                                             <th scope="row">Nước</th>
                                                             <td class="text-center">g</td>
                                                             <td>
-                                                                <input type="text" name="water" id="textfield" class="foodinput" value="${ChosenFood.water}" disabled></td>
+                                                                <input type="text" name="water" id="textfield" class="foodinput" value="${ChosenFood.water}" disabled>
+                                                                <input type="text" name="water_new" id="textfield" class="foodinput"  ></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Năng lượng(Energy)</th>
                                                             <td class="text-center">KCal</td>
-                                                            <td><input type="text" name="energy" id="textfield" class="foodinput" value="${ChosenFood.energy}" disabled></td>
+                                                            <td><input type="text" name="energy" id="textfield" class="foodinput" value="${ChosenFood.energy}" disabled>
+                                                            <input type="text" name="energy_new" id="textfield" class="foodinput"  ></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Protein</th>
                                                             <td class="text-center">g</td>
-                                                            <td><input type="text" name="protein" id="textfield" class="foodinput" value="${ChosenFood.protein}" disabled></td>
+                                                            <td><input type="text" name="protein" id="textfield" class="foodinput" value="${ChosenFood.protein}" disabled>
+                                                            <input type="text" name="protein_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Lipid(Fat)</th>
                                                             <td class="text-center">g</td>
-                                                            <td><input type="text" name="lipid" id="textfield" class="foodinput" value="${ChosenFood.lipid}" disabled></td>
+                                                            <td><input type="text" name="lipid" id="textfield" class="foodinput" value="${ChosenFood.lipid}" disabled>
+                                                            <input type="text" name="lipid_new" id="textfield" class="foodinput"  >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Glucid(Carbohydrate)</th>
                                                             <td class="text-center">g</td>
-                                                            <td><input type="text" name="carbohydrate" id="textfield" class="foodinput" value="${ChosenFood.carbohydrate}" disabled></td>
+                                                            <td><input type="text" name="carbohydrate" id="textfield" class="foodinput" value="${ChosenFood.carbohydrate}" disabled>
+                                                            <input type="text" name="carbohydrate_new" id="textfield" class="foodinput"  >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Celluloza(Fiber)</th>
                                                             <td class="text-center">g</td>
-                                                            <td><input type="text" name="celluloza" id="textfield" class="foodinput" value="${ChosenFood.celluloza}" disabled></td>
+                                                            <td><input type="text" name="celluloza" id="textfield" class="foodinput" value="${ChosenFood.celluloza}" disabled>
+                                                            <input type="text" name="celluloza_new" id="textfield" class="foodinput"  >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Tro(Ash)</th>
                                                             <td class="text-center">g</td>
-                                                            <td><input type="text" name="tro" id="textfield" class="foodinput" value="${ChosenFood.tro}" disabled></td>
+                                                            <td><input type="text" name="tro" id="textfield" class="foodinput" value="${ChosenFood.tro}" disabled>
+                                                            <input type="text" name="tro_new" id="textfield" class="foodinput"  >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Đường tổng số</th>
                                                             <td class="text-center">g</td>
-                                                            <td></td>
+                                                            <td>
+                                                                <input type="text" name="totalSugar" class="foodinput" disabled>
+                                                                <input type="text" name="totalSugar_new" class="foodinput" >
+                                                            </td>
                                                         </tr>
-                                                        <tr>
-                                                            <th scope="row" class="paddingLeft">Galactoza(Galactose)</th>
-                                                            <td class="text-center">g</td>
-                                                            <td><input type="text" name="textfield" id="textfield" class="foodinput" value="${ChosenFood.galactoza}" disabled></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row" class="paddingLeft">Maltoza(Maltose)</th>
-                                                            <td class="text-center">g</td>
-                                                            <td><input type="text" name="textfield" id="textfield" class="foodinput" value="${ChosenFood.maltoza}" disabled></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row" class="paddingLeft">Lactoza(Lactose)</th>
-                                                            <td class="text-center">g</td>
-                                                            <td><input type="text" name="textfield" id="textfield" class="foodinput" value="${ChosenFood.lactoza}" disabled></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row" class="paddingLeft">Fructoza(Fructose)</th>
-                                                            <td class="text-center">g</td>
-                                                            <td><input type="text" name="textfield" id="textfield" class="foodinput" value="${ChosenFood.fructoza}" disabled></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row" class="paddingLeft">Glucoza(Glucose)</th>
-                                                            <td class="text-center">g</td>
-                                                            <td><input type="text" name="textfield" id="textfield" class="foodinput" value="${ChosenFood.glucoza}" disabled></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row" class="paddingLeft">Sacaroza(Sucrose)</th>
-                                                            <td class="text-center">g</td>
-                                                            <td><input type="text" name="textfield" id="textfield" class="foodinput" value="${ChosenFood.sacaroza}" disabled></td>
-                                                        </tr>
-                                                        <tr>
+                                                        
                                                             <th scope="row">Calci(Calcium)</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="calcium" id="textfield" class="foodinput" value="${ChosenFood.calcium}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="calcium" id="textfield" class="foodinput" value="${ChosenFood.calcium}" disabled>
+                                                                <input type="text" name="calcium_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Iron</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="iron" id="textfield" class="foodinput" value="${ChosenFood.iron}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="iron" id="textfield" class="foodinput" value="${ChosenFood.iron}" disabled>
+                                                                <input type="text" name="iron_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Magiê(Magnesium)</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="magnesium" id="textfield" class="foodinput" value="${ChosenFood.magnesium}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="magnesium" id="textfield" class="foodinput" value="${ChosenFood.magnesium}" disabled>
+                                                                <input type="text" name="magnesium_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Mangan(Manganese)</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="manganese" id="textfield" class="foodinput" value="${ChosenFood.manganese}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="manganese" id="textfield" class="foodinput" value="${ChosenFood.manganese}" disabled>
+                                                                <input type="text" name="manganese_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Phospho(Phosphorous)</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="phosphorous" id="textfield" class="foodinput" value="${ChosenFood.phosphorous}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="phosphorous" id="textfield" class="foodinput" value="${ChosenFood.phosphorous}" disabled>
+                                                                <input type="text" name="phosphorous_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Kali(Potassium)</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="potassium" id="textfield" class="foodinput" value="${ChosenFood.potassium}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="potassium" id="textfield" class="foodinput" value="${ChosenFood.potassium}" disabled>
+                                                                <input type="text" name="potassium_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Natri(Sodium)</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="sodium" id="textfield" class="foodinput" value="${ChosenFood.sodium}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="sodium" id="textfield" class="foodinput" value="${ChosenFood.sodium}" disabled>
+                                                                <input type="text" name="sodium_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Kẽm(Zinc)</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="zinc" id="textfield" class="foodinput" value="${ChosenFood.zinc}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="zinc" id="textfield" class="foodinput" value="${ChosenFood.zinc}" disabled>
+                                                                <input type="text" name="zinc_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Đồng(Copper)</th>
                                                             <td class="text-center">µg</td>
-                                                            <td><input type="text" name="copper" id="textfield" class="foodinput" value="${ChosenFood.copper}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="copper" id="textfield" class="foodinput" value="${ChosenFood.copper}" disabled>
+                                                                <input type="text" name="copper_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Selen(Selenium)</th>
                                                             <td class="text-center">µg</td>
-                                                            <td><input type="text" name="selenium" id="textfield" class="foodinput" value="${ChosenFood.selenium}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="selenium" id="textfield" class="foodinput" value="${ChosenFood.selenium}" disabled>
+                                                                <input type="text" name="selenium_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Vitamin C(Ascorbic acid)</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="vitaminC" id="textfield" class="foodinput" value="${ChosenFood.vitaminC}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="vitaminC" id="textfield" class="foodinput" value="${ChosenFood.vitaminC}" disabled>
+                                                                <input type="text" name="vitaminC_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Vitamin B1(Thiamine)</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="vitaminB1" id="textfield" class="foodinput" value="${ChosenFood.vitaminB1}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="vitaminB1" id="textfield" class="foodinput" value="${ChosenFood.vitaminB1}" disabled>
+                                                                <input type="text" name="vitaminB1_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Vitamin B2(Riboflavin)</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="vitaminB2" id="textfield" class="foodinput" value="${ChosenFood.vitaminB2}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="vitaminB2" id="textfield" class="foodinput" value="${ChosenFood.vitaminB2}" disabled>
+                                                                <input type="text" name="vitaminB2_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Vitamin PP(Niacin)</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="vitaminPp" id="textfield" class="foodinput" value="${ChosenFood.vitaminPp}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="vitaminPp" id="textfield" class="foodinput" value="${ChosenFood.vitaminPp}" disabled>
+                                                                <input type="text" name="vitaminPp_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Vitamin B5(Pantothenic acid)</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="vitaminB5" id="textfield" class="foodinput" value="${ChosenFood.vitaminB5}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="vitaminB5" id="textfield" class="foodinput" value="${ChosenFood.vitaminB5}" disabled>
+                                                                <input type="text" name="vitaminB5_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Vitamin B6(Pyridoxine)</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="vitaminB6" id="textfield" class="foodinput" value="${ChosenFood.vitaminB6}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="vitaminB6" id="textfield" class="foodinput" value="${ChosenFood.vitaminB6}" disabled>
+                                                                <input type="text" name="vitaminB6_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Folat(Folate)</th>
                                                             <td class="text-center">µg</td>
-                                                            <td><input type="text" name="folat" id="textfield" class="foodinput" value="${ChosenFood.folat}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="folat" id="textfield" class="foodinput" value="${ChosenFood.folat}" disabled>
+                                                                <input type="text" name="folat_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Vitamin B9(Folic acid)</th>
                                                             <td class="text-center">µg</td>
-                                                            <td><input type="text" name="vitaminB9" id="textfield" class="foodinput" value="${ChosenFood.vitaminB9}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="vitaminB9" id="textfield" class="foodinput" value="${ChosenFood.vitaminB9}" disabled>
+                                                                <input type="text" name="vitaminB9_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Vitamin H(Biotin)</th>
                                                             <td class="text-center">µg</td>
-                                                            <td><input type="text" name="vitaminH" id="textfield" class="foodinput" value="${ChosenFood.vitaminH}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="vitaminH" id="textfield" class="foodinput" value="${ChosenFood.vitaminH}" disabled>
+                                                                <input type="text" name="vitaminH_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Vitamin B12(Cyanocobalamine)</th>
                                                             <td class="text-center">µg</td>
-                                                            <td><input type="text" name="vitaminB12" id="textfield" class="foodinput" value="${ChosenFood.vitaminB12}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="vitaminB12" id="textfield" class="foodinput" value="${ChosenFood.vitaminB12}" disabled>
+                                                                <input type="text" name="vitaminB12_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Vitamin A(Retinol)</th>
                                                             <td class="text-center">µg</td>
-                                                            <td><input type="text" name="vitaminA" id="textfield" class="foodinput" value="${ChosenFood.vitaminA}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="vitaminA" id="textfield" class="foodinput" value="${ChosenFood.vitaminA}" disabled>
+                                                                <input type="text" name="vitaminA_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Vitamin D(Calciferol)</th>
                                                             <td class="text-center">µg</td>
-                                                            <td><input type="text" name="vitaminD" id="textfield" class="foodinput" value="${ChosenFood.vitaminD}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="vitaminD" id="textfield" class="foodinput" value="${ChosenFood.vitaminD}" disabled>
+                                                                <input type="text" name="vitaminD_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Vitamin E(Alpha-tocopherol)</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="vitaminE" id="textfield" class="foodinput" value="${ChosenFood.vitaminE}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="vitaminE" id="textfield" class="foodinput" value="${ChosenFood.vitaminE}" disabled>
+                                                                <input type="text" name="vitaminE_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Vitamin K(Phylloquinone)</th>
                                                             <td class="text-center">µg</td>
-                                                            <td><input type="text" name="vitaminK" id="textfield" class="foodinput" value="${ChosenFood.vitaminK}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="vitaminK" id="textfield" class="foodinput" value="${ChosenFood.vitaminK}" disabled>
+                                                                <input type="text" name="vitaminK_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Beta-caroten</th>
                                                             <td class="text-center">µg</td>
-                                                            <td><input type="text" name="betaCaroten" id="textfield" class="foodinput" value="${ChosenFood.betaCaroten}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="betaCaroten" id="textfield" class="foodinput" value="${ChosenFood.betaCaroten}" disabled>
+                                                                <input type="text" name="betaCaroten_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Alpha-caroten</th>
                                                             <td class="text-center">µg</td>
-                                                            <td><input type="text" name="alphaCaroten" id="textfield" class="foodinput" value="${ChosenFood.alphaCaroten}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="alphaCaroten" id="textfield" class="foodinput" value="${ChosenFood.alphaCaroten}" disabled>
+                                                                <input type="text" name="alphaCaroten_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Beta-cryptoxanthin</th>
                                                             <td class="text-center">µg</td>
-                                                            <td><input type="text" name="betaCryptoxanthin" id="textfield" class="foodinput" value="${ChosenFood.betaCryptoxanthin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="betaCryptoxanthin" id="textfield" class="foodinput" value="${ChosenFood.betaCryptoxanthin}" disabled>
+                                                                <input type="text" name="betaCryptoxanthin_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Lycopen</th>
                                                             <td class="text-center">µg</td>
-                                                            <td><input type="text" name="lycopen" id="textfield" class="foodinput" value="${ChosenFood.lycopen}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="lycopen" id="textfield" class="foodinput" value="${ChosenFood.lycopen}" disabled>
+                                                                <input type="text" name="lycopen_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Lutein+Zeaxanthin</th>
                                                             <td class="text-center">µg</td>
-                                                            <td><input type="text" name="lutein" id="textfield" class="foodinput" value="${ChosenFood.lutein}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="lutein" id="textfield" class="foodinput" value="${ChosenFood.lutein}" disabled>
+                                                                <input type="text" name="lutein_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Purin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="purin" id="textfield" class="foodinput" value="${ChosenFood.purin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="purin" id="textfield" class="foodinput" value="${ChosenFood.purin}" disabled>
+                                                                <input type="text" name="purin_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -397,7 +472,7 @@
                                                             <th width="12%" scope="col" class="vHeading text-center">Đơn vị</th>
                                                             <th width="34%" scope="col" class="vHeading text-center">Hàm lượng</th>
                                                         </tr>
-                                                        <tr>
+                                                        <tr style="height:37px;">
                                                             <th scope="row"> Tổng số isoflavon(Total isoflavone)</th>
                                                             <td class="text-center">mg</td>
                                                             <td></td>
@@ -405,19 +480,28 @@
                                                         <tr>
                                                             <th scope="row" class="paddingLeft">Daidzein</th>
                                                             <td class="text-center"> mg</td>
-                                                            <td><input type="text" name="daidzein" id="textfield" class="foodinput" value="${ChosenFood.daidzein}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="daidzein" id="textfield" class="foodinput" value="${ChosenFood.daidzein}" disabled>
+                                                                <input type="text" name="daidzein_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row" class="paddingLeft">Genistein</th>
                                                             <td class="text-center"> mg</td>
-                                                            <td><input type="text" name="genistein" id="textfield" class="foodinput" value="${ChosenFood.genistein}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="genistein" id="textfield" class="foodinput" value="${ChosenFood.genistein}" disabled>
+                                                                <input type="text" name="genistein_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row" class="paddingLeft">Glycetin</th>
                                                             <td class="text-center"> mg</td>
-                                                            <td><input type="text" name="glycetin" id="textfield" class="foodinput" value="${ChosenFood.glycetin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="glycetin" id="textfield" class="foodinput" value="${ChosenFood.glycetin}" disabled>
+                                                                <input type="text" name="glycetin_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
-                                                        <tr>
+                                                        <tr style="height:37px;">
                                                             <th scope="row">Tổng số acid béo no</th>
                                                             <td class="text-center">g</td>
                                                             <td></td>
@@ -425,34 +509,52 @@
                                                         <tr>
                                                             <th scope="row" class="paddingLeft">Palmitic(C16:9)</th>
                                                             <td class="text-center">g</td>
-                                                            <td><input type="text" name="palmitic" id="textfield" class="foodinput" value="${ChosenFood.palmitic}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="palmitic" id="textfield" class="foodinput" value="${ChosenFood.palmitic}" disabled>
+                                                                <input type="text" name="palmitic_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row" class="paddingLeft"> Marganic(C17:0)</th>
                                                             <td class="text-center">g</td>
-                                                            <td><input type="text" name="marganic" id="textfield" class="foodinput" value="${ChosenFood.margaric}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="marganic" id="textfield" class="foodinput" value="${ChosenFood.margaric}" disabled>
+                                                                <input type="text" name="marganic_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row" class="paddingLeft">Stearic(C18:0)</th>
                                                             <td class="text-center">g</td>
-                                                            <td><input type="text" name="stearic" id="textfield" class="foodinput" value="${ChosenFood.stearic}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="stearic" id="textfield" class="foodinput" value="${ChosenFood.stearic}" disabled>
+                                                                <input type="text" name="stearic_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row" class="paddingLeft"> Arachidic (C20:0)</th>
                                                             <td class="text-center">g</td>
-                                                            <td><input type="text" name="arachidic" id="textfield" class="foodinput" value="${ChosenFood.arachidic}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="arachidic" id="textfield" class="foodinput" value="${ChosenFood.arachidic}" disabled>
+                                                                <input type="text" name="arachidic_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row" class="paddingLeft"> Behenic(22:0)</th>
                                                             <td class="text-center">g</td>
-                                                            <td><input type="text" name="behenic" id="textfield" class="foodinput" value="${ChosenFood.behenic}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="behenic" id="textfield" class="foodinput" value="${ChosenFood.behenic}" disabled>
+                                                                <input type="text" name="behenic_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row" class="paddingLeft"> Lignoceric(C24:0)</th>
                                                             <td class="text-center">g</td>
-                                                            <td><input type="text" name="lignoceric" id="textfield" class="foodinput" value="${ChosenFood.lignoceric}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="lignoceric" id="textfield" class="foodinput" value="${ChosenFood.lignoceric}" disabled>
+                                                                <input type="text" name="lignoceric_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
-                                                        <tr>
+                                                        <tr style="height:37px;">
                                                             <th scope="row"> Tổng số acid béo không no 1 nối đôi</th>
                                                             <td class="text-center">g</td>
                                                             <td></td>
@@ -460,164 +562,215 @@
                                                         <tr>
                                                             <th scope="row" class="paddingLeft"> Myristoleic(C14:1)</th>
                                                             <td class="text-center">g</td>
-                                                            <td><input type="text" name="myristoleic" id="textfield" class="foodinput" value="${ChosenFood.myristoleic}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="myristoleic" id="textfield" class="foodinput" value="${ChosenFood.myristoleic}" disabled>
+                                                                <input type="text" name="myristoleic_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row" class="paddingLeft"> Palmitoleic(C16:1)</th>
                                                             <td class="text-center">g</td>
-                                                            <td><input type="text" name="palmitoleic" id="textfield" class="foodinput" value="${ChosenFood.palmitoleic}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="palmitoleic" id="textfield" class="foodinput" value="${ChosenFood.palmitoleic}" disabled>
+                                                                <input type="text" name="palmitoleic_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row" class="paddingLeft"> Oleic(C18:1)</th>
                                                             <td class="text-center">g</td>
-                                                            <td><input type="text" name="oleic" id="textfield" class="foodinput" value="${ChosenFood.oleic}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="oleic" id="textfield" class="foodinput" value="${ChosenFood.oleic}" disabled>
+                                                                <input type="text" name="oleic_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
-                                                        <tr>
+                                                        <tr style="height:37px;">
                                                             <th scope="row"> Tổng số acid béo không no nhiều nối đôi</th>
                                                             <td class="text-center">g</td>
-                                                            <td></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row" class="paddingLeft"> Linoleic(C18:2 n6)</th>
-                                                            <td class="text-center">g</td>
-                                                            <td><input type="text" name="textfield" id="textfield" class="foodinput" value="${ChosenFood.linoleic}" disabled></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row" class="paddingLeft"> Linolenic(C18:2 n3)</th>
-                                                            <td class="text-center">g</td>
-                                                            <td><input type="text" name="textfield" id="textfield" class="foodinput" value="${ChosenFood.linolenic}" disabled></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row" class="paddingLeft"> Arachidonic(C20:4)</th>
-                                                            <td class="text-center">g</td>
-                                                            <td><input type="text" name="textfield" id="textfield" class="foodinput" value="${ChosenFood.arachidonic}" disabled></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row" class="paddingLeft"> Eicosapentaenoic(C20:5 n3)</th>
-                                                            <td class="text-center">g</td>
-                                                            <td><input type="text" name="textfield" id="textfield" class="foodinput" value="${ChosenFood.eicosapentaenoic}" disabled></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row" class="paddingLeft"> Docosahenxaenoic(C22:6 n3)</th>
-                                                            <td class="text-center">g</td>
-                                                            <td><input type="text" name="textfield" id="textfield" class="foodinput" value="${ChosenFood.docosahexaenoic}" disabled></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row"> Tổng số acid bén trans</th>
+                                                            <td><input type="text" name="totalPFAcid" id="textfield" class="foodinput" value="${ChosenFood.totalPFAcid}" disabled>
+                                                                <input type="text" name="totalPFAcid_new" id="textfield" class="foodinput" >
+                                                                    </td>
+                                                        </tr style="height:37px;">
+                                                       
+                                                            <th scope="row"> Tổng số acid béo trans</th>
                                                             <td class="text-center">g</td>
                                                             <td></td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Cholesterol</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="cholesterol" id="textfield" class="foodinput" value="${ChosenFood.cholesterol}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="cholesterol" id="textfield" class="foodinput" value="${ChosenFood.cholesterol}" disabled>
+                                                                <input type="text" name="cholesterol_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Phylosterol</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="phylosterol" id="textfield" class="foodinput" value="${ChosenFood.phytosterol }" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="phylosterol" id="textfield" class="foodinput" value="${ChosenFood.phytosterol }" disabled>
+                                                                <input type="text" name="phylosterol_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Lysin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="lysin" id="textfield" class="foodinput" value="${ChosenFood.lysin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="lysin" id="textfield" class="foodinput" value="${ChosenFood.lysin}" disabled>
+                                                                <input type="text" name="lysin_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Methionin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="methionin" id="textfield" class="foodinput" value="${ChosenFood.methionin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="methionin" id="textfield" class="foodinput" value="${ChosenFood.methionin}" disabled>
+                                                                <input type="text" name="methionin_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Tryptophan</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="tryptophan" id="textfield" class="foodinput" value="${ChosenFood.tryptophan}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="tryptophan" id="textfield" class="foodinput" value="${ChosenFood.tryptophan}" disabled>
+                                                                <input type="text" name="tryptophan_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Phenylalanin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="phenylalanin" id="textfield" class="foodinput" value="${ChosenFood.phenylalanin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="phenylalanin" id="textfield" class="foodinput" value="${ChosenFood.phenylalanin}" disabled>
+                                                                <input type="text" name="phenylalanin_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Threonin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="threonin" id="textfield" class="foodinput" value="${ChosenFood.threonin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="threonin" id="textfield" class="foodinput" value="${ChosenFood.threonin}" disabled>
+                                                                <input type="text" name="threonin_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Valin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="valin" id="textfield" class="foodinput" value="${ChosenFood.valin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="valin" id="textfield" class="foodinput" value="${ChosenFood.valin}" disabled>
+                                                                <input type="text" name="valin_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Leucin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="leucin" id="textfield" class="foodinput" value="${ChosenFood.leucin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="leucin" id="textfield" class="foodinput" value="${ChosenFood.leucin}" disabled>
+                                                                <input type="text" name="leucin_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Isoleucin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="isoleucin" id="textfield" class="foodinput" value="${ChosenFood.isoleucin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="isoleucin" id="textfield" class="foodinput" value="${ChosenFood.isoleucin}" disabled>
+                                                                <input type="text" name="isoleucin_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Arginin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="arginin" id="textfield" class="foodinput" value="${ChosenFood.arginin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="arginin" id="textfield" class="foodinput" value="${ChosenFood.arginin}" disabled>
+                                                                <input type="text" name="arginin_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Histidin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="histidin" id="textfield" class="foodinput" value="${ChosenFood.histidin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="histidin" id="textfield" class="foodinput" value="${ChosenFood.histidin}" disabled>
+                                                                <input type="text" name="histidin_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">Cystin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="cystin" id="textfield" class="foodinput" value="${ChosenFood.cystin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="cystin" id="textfield" class="foodinput" value="${ChosenFood.cystin}" disabled>
+                                                                <input type="text" name="cystin_new" id="textfield" class="foodinput" >
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Tyrosin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="tyrosin" id="textfield" class="foodinput" value="${ChosenFood.tyrosin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="tyrosin" id="textfield" class="foodinput" value="${ChosenFood.tyrosin}" disabled>
+                                                                <input type="text" name="tyrosin_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Alanin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="alanin" id="textfield" class="foodinput" value="${ChosenFood.alanin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="alanin" id="textfield" class="foodinput" value="${ChosenFood.alanin}" disabled>
+                                                                <input type="text" name="alanin_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Acid aspartic</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="acidAspartic" id="textfield" class="foodinput" value="${ChosenFood.acidAspartic}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="acidAspartic" id="textfield" class="foodinput" value="${ChosenFood.acidAspartic}" disabled>
+                                                                <input type="text" name="acidAspartic_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Acid glutamic</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="acidGlutamic" id="textfield" class="foodinput" value="${ChosenFood.acidGlutamic}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="acidGlutamic" id="textfield" class="foodinput" value="${ChosenFood.acidGlutamic}" disabled>
+                                                                <input type="text" name="acidGlutamic_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Glycin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="glycin" id="textfield" class="foodinput" value="${ChosenFood.glycin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="glycin" id="textfield" class="foodinput" value="${ChosenFood.glycin}" disabled>
+                                                                <input type="text" name="glycin_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Prolin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="prolin" id="textfield" class="foodinput" value="${ChosenFood.prolin}" disabled></td>
+                                                            <td>
+                                                                <input type="text" name="prolin" id="textfield" class="foodinput" value="${ChosenFood.prolin}" disabled>
+                                                                <input type="text" name="prolin_new" id="textfield" class="foodinput">
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row"> Serin</th>
                                                             <td class="text-center">mg</td>
-                                                            <td><input type="text" name="serin" id="textfield" class="foodinput" value="${ChosenFood.serin}" disabled></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row"></th>
-                                                            <td>&nbsp;</td>
-                                                            <td>&nbsp;</td>
-                                                        </tr>
+                                                            <td>
+                                                                <input type="text" name="serin" id="textfield" class="foodinput" value="${ChosenFood.serin}" disabled>
+                                                                <input type="text" name="serin_new" id="textfield" class="foodinput">
+                                                            </td>
+                                                        </tr> 
+                                                                
+                                                                   
+                                                                 
                                                     </tbody>
-                                                </table></div>
+                                                </table>
+                                                                <div style=" padding: 4px 5px;">  
+                                                                    <input type="button" value="Sửa" name="btnSua" align="middle" onClick="Sua();" class="btn btn-primary btn-lg" style="margin-left: 70px;"/>                                            
+                                                                <a href="${pageContext.request.contextPath}/UpdateFoodServlet">
+                                                                    <input type="submit" value="Lưu" name="btnLuu" align="middle" class="btn btn-warning btn-lg" style="margin-left: 30px;" disabled/>
+                                                                </a>                                            
+                                                                <input type="submit" value="Quay lại" name="btnQuaylai" align="middle" class="btn btn-info btn-lg" style="margin-left: 30px;"/>
+                                                                </div>
+                                                               
+                                            </div>
 
-                                            <input type="button" value="Sửa" name="btnSua" align="middle" onClick="Sua();"/>
-                                            <a href="${pageContext.request.contextPath}/UpdateFoodServlet"><input type="submit" value="Lưu" name="btnLuu" align="middle" disabled/></a>
-                                            <input type="submit" value="Quay lại" name="btnQuaylai" align="middle"/>
+                                            
                                         </form>
 
 
