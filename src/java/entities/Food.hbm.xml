@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 10, 2018 8:01:11 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entities.Food" table="food" catalog="anginhi" optimistic-lock="version">
+        <id name="foodId" type="int">
+            <column name="food_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="foodCategoryId" type="int">
+            <column name="food_category_id" not-null="true" />
+        </property>
+        <property name="foodVName" type="string">
+            <column name="food_vName" length="65535" />
+        </property>
+        <property name="foodEName" type="string">
+            <column name="food_eName" length="65535" />
+        </property>
+        <property name="foodImage" type="string">
+            <column name="food_image" length="65535" />
+        </property>
+        <property name="water" type="string">
+            <column name="water" length="65535" />
+        </property>
+        <property name="energy" type="string">
+            <column name="energy" length="65535" />
+        </property>
+        <property name="protein" type="string">
+            <column name="protein" length="65535" />
+        </property>
+        <property name="lipid" type="string">
+            <column name="lipid" length="65535" />
+        </property>
+        <property name="carbohydrate" type="string">
+            <column name="carbohydrate" length="65535" />
+        </property>
+        <property name="celluloza" type="string">
+            <column name="celluloza" length="65535" />
+        </property>
+        <property name="tro" type="string">
+            <column name="tro" length="65535" />
+        </property>
+        <property name="totalSugar" type="string">
+            <column name="total_sugar" length="65535" />
+        </property>
+        <property name="galactoza" type="string">
+            <column name="galactoza" length="65535" />
+        </property>
+        <property name="maltoza" type="string">
+            <column name="maltoza" length="65535" />
+        </property>
+        <property name="lactoza" type="string">
+            <column name="lactoza" length="65535" />
+        </property>
+        <property name="fructoza" type="string">
+            <column name="fructoza" length="65535" />
+        </property>
+        <property name="glucoza" type="string">
+            <column name="glucoza" length="65535" />
+        </property>
+        <property name="sacaroza" type="string">
+            <column name="sacaroza" length="65535" />
+        </property>
+        <property name="calcium" type="string">
+            <column name="calcium" length="65535" />
+        </property>
+        <property name="iron" type="string">
+            <column name="iron" length="65535" />
+        </property>
+        <property name="magnesium" type="string">
+            <column name="magnesium" length="65535" />
+        </property>
+        <property name="manganese" type="string">
+            <column name="manganese" length="65535" />
+        </property>
+        <property name="phosphorous" type="string">
+            <column name="phosphorous" length="65535" />
+        </property>
+        <property name="potassium" type="string">
+            <column name="potassium" length="65535" />
+        </property>
+        <property name="sodium" type="string">
+            <column name="sodium" length="65535" />
+        </property>
+        <property name="zinc" type="string">
+            <column name="zinc" length="65535" />
+        </property>
+        <property name="copper" type="string">
+            <column name="copper" length="65535" />
+        </property>
+        <property name="selenium" type="string">
+            <column name="selenium" length="65535" />
+        </property>
+        <property name="vitaminC" type="string">
+            <column name="vitaminC" length="65535" />
+        </property>
+        <property name="vitaminB1" type="string">
+            <column name="vitaminB1" length="65535" />
+        </property>
+        <property name="vitaminB2" type="string">
+            <column name="vitaminB2" length="65535" />
+        </property>
+        <property name="vitaminPp" type="string">
+            <column name="vitaminPP" length="65535" />
+        </property>
+        <property name="vitaminB5" type="string">
+            <column name="vitaminB5" length="65535" />
+        </property>
+        <property name="vitaminB6" type="string">
+            <column name="vitaminB6" length="65535" />
+        </property>
+        <property name="folat" type="string">
+            <column name="folat" length="65535" />
+        </property>
+        <property name="vitaminB9" type="string">
+            <column name="vitaminB9" length="65535" />
+        </property>
+        <property name="vitaminH" type="string">
+            <column name="vitaminH" length="65535" />
+        </property>
+        <property name="vitaminB12" type="string">
+            <column name="vitaminB12" length="65535" />
+        </property>
+        <property name="vitaminA" type="string">
+            <column name="vitaminA" length="65535" />
+        </property>
+        <property name="vitaminD" type="string">
+            <column name="vitaminD" length="65535" />
+        </property>
+        <property name="vitaminE" type="string">
+            <column name="vitaminE" length="65535" />
+        </property>
+        <property name="vitaminK" type="string">
+            <column name="vitaminK" length="65535" />
+        </property>
+        <property name="betaCaroten" type="string">
+            <column name="beta_caroten" length="65535" />
+        </property>
+        <property name="alphaCaroten" type="string">
+            <column name="alpha_caroten" length="65535" />
+        </property>
+        <property name="betaCryptoxanthin" type="string">
+            <column name="beta_cryptoxanthin" length="65535" />
+        </property>
+        <property name="lycopen" type="string">
+            <column name="lycopen" length="65535" />
+        </property>
+        <property name="lutein" type="string">
+            <column name="lutein" length="65535" />
+        </property>
+        <property name="purin" type="string">
+            <column name="purin" length="65535" />
+        </property>
+        <property name="totalIsoflavone" type="string">
+            <column name="total_isoflavone" length="65535" />
+        </property>
+        <property name="daidzein" type="string">
+            <column name="daidzein" length="65535" />
+        </property>
+        <property name="genistein" type="string">
+            <column name="genistein" length="65535" />
+        </property>
+        <property name="glycetin" type="string">
+            <column name="glycetin" length="65535" />
+        </property>
+        <property name="totalSFAcid" type="string">
+            <column name="total_s_f_acid" length="65535">
+                <comment>total salturated falty acid</comment>
+            </column>
+        </property>
+        <property name="palmitic" type="string">
+            <column name="palmitic" length="65535" />
+        </property>
+        <property name="margaric" type="string">
+            <column name="margaric" length="65535" />
+        </property>
+        <property name="stearic" type="string">
+            <column name="stearic" length="65535" />
+        </property>
+        <property name="arachidic" type="string">
+            <column name="arachidic" length="65535" />
+        </property>
+        <property name="behenic" type="string">
+            <column name="behenic" length="65535" />
+        </property>
+        <property name="lignoceric" type="string">
+            <column name="lignoceric" length="65535" />
+        </property>
+        <property name="totalMFAcid" type="string">
+            <column name="total_m_f_acid" length="65535" />
+        </property>
+        <property name="myristoleic" type="string">
+            <column name="myristoleic" length="65535" />
+        </property>
+        <property name="palmitoleic" type="string">
+            <column name="palmitoleic" length="65535" />
+        </property>
+        <property name="oleic" type="string">
+            <column name="oleic" length="65535" />
+        </property>
+        <property name="totalPFAcid" type="string">
+            <column name="total_p_f_acid" length="65535" />
+        </property>
+        <property name="linoleic" type="string">
+            <column name="linoleic" length="65535" />
+        </property>
+        <property name="linolenic" type="string">
+            <column name="linolenic" length="65535" />
+        </property>
+        <property name="arachidonic" type="string">
+            <column name="arachidonic" length="65535" />
+        </property>
+        <property name="eicosapentaenoic" type="string">
+            <column name="eicosapentaenoic" length="65535" />
+        </property>
+        <property name="docosahexaenoic" type="string">
+            <column name="docosahexaenoic" length="65535" />
+        </property>
+        <property name="totalTFAcid" type="string">
+            <column name="total_t_f_acid" length="65535" />
+        </property>
+        <property name="cholesterol" type="string">
+            <column name="cholesterol" length="65535" />
+        </property>
+        <property name="phytosterol" type="string">
+            <column name="phytosterol" length="65535" />
+        </property>
+        <property name="lysin" type="string">
+            <column name="lysin" length="65535" />
+        </property>
+        <property name="methionin" type="string">
+            <column name="methionin" length="65535" />
+        </property>
+        <property name="tryptophan" type="string">
+            <column name="tryptophan" length="65535" />
+        </property>
+        <property name="phenylalanin" type="string">
+            <column name="phenylalanin" length="65535" />
+        </property>
+        <property name="threonin" type="string">
+            <column name="threonin" length="65535" />
+        </property>
+        <property name="valin" type="string">
+            <column name="valin" length="65535" />
+        </property>
+        <property name="leucin" type="string">
+            <column name="leucin" length="65535" />
+        </property>
+        <property name="isoleucin" type="string">
+            <column name="isoleucin" length="65535" />
+        </property>
+        <property name="arginin" type="string">
+            <column name="arginin" length="65535" />
+        </property>
+        <property name="histidin" type="string">
+            <column name="histidin" length="65535" />
+        </property>
+        <property name="cystin" type="string">
+            <column name="cystin" length="65535" />
+        </property>
+        <property name="tyrosin" type="string">
+            <column name="tyrosin" length="65535" />
+        </property>
+        <property name="alanin" type="string">
+            <column name="alanin" length="65535" />
+        </property>
+        <property name="acidAspartic" type="string">
+            <column name="acid_aspartic" length="65535" />
+        </property>
+        <property name="acidGlutamic" type="string">
+            <column name="acid_glutamic" length="65535" />
+        </property>
+        <property name="glycin" type="string">
+            <column name="glycin" length="65535" />
+        </property>
+        <property name="prolin" type="string">
+            <column name="prolin" length="65535" />
+        </property>
+        <property name="serin" type="string">
+            <column name="serin" length="65535" />
+        </property>
+        <property name="foodUses" type="string">
+            <column name="food_uses" />
+        </property>
+        <property name="sugar" type="string">
+            <column name="sugar" />
+        </property>
+        <property name="lypcogen" type="string">
+            <column name="lypcogen" />
+        </property>
+    </class>
+</hibernate-mapping>

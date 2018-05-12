@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 10, 2018 8:01:11 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entities.AdminAccount" table="admin_account" catalog="anginhi" optimistic-lock="version">
+        <id name="adminId" type="int">
+            <column name="admin_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="adminLoginName" type="string">
+            <column name="admin_loginName" length="65535" not-null="true" />
+        </property>
+        <property name="adminPassword" type="string">
+            <column name="admin_password" length="65535" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

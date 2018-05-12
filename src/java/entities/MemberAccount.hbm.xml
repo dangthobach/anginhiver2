@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 10, 2018 8:01:11 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entities.MemberAccount" table="member_account" catalog="anginhi" optimistic-lock="version">
+        <id name="memberId" type="int">
+            <column name="member_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="memberLoginName" type="string">
+            <column name="member_loginName" not-null="true" />
+        </property>
+        <property name="memberPassword" type="string">
+            <column name="member_password" not-null="true" />
+        </property>
+        <property name="memberGender" type="string">
+            <column name="member_gender" />
+        </property>
+        <property name="memberAddress" type="string">
+            <column name="member_address" />
+        </property>
+        <property name="memberPhoneNumber" type="string">
+            <column name="member_phoneNumber" />
+        </property>
+        <property name="memberGoal" type="string">
+            <column name="member_goal" />
+        </property>
+        <property name="memberHeight" type="java.lang.Integer">
+            <column name="member_height" />
+        </property>
+        <property name="memberWeight" type="java.lang.Integer">
+            <column name="member_weight" />
+        </property>
+        <property name="memberPreferrence" type="string">
+            <column name="member_preferrence" />
+        </property>
+        <property name="memberActiveLevel" type="string">
+            <column name="member_activeLevel" />
+        </property>
+    </class>
+</hibernate-mapping>
